@@ -1,0 +1,115 @@
+:root {
+  --dark-blue: hsl(233, 47%, 7%);
+  --desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --white-transparent-one: hsla(0, 0%, 100%, 0.75);
+  --white-transparent-two: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+
+  font-size: 62.5%;
+  color: var(--white);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-blue);
+  font-size: 1.5rem;
+  min-height: 100vh;
+}
+
+main#main-home {
+  background: var(--desaturated-blue);
+  margin: 25px;
+  padding: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.color-overlay {
+  width: 100%;
+  height: 230px;
+  background: var(--soft-violet);
+}
+
+div.color-overlay > div.img-back {
+  background-image: url(../images/image-header-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+section#section-two {
+  padding: 20px 30px 10px 30px;
+  text-align: center;
+}
+
+section#section-two h1 {
+  font-size: 2.5rem;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+section#section-two p {
+  font-size: 1.4rem;
+  color: var(--white-transparent-two);
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+section#section-two h1 span {
+  color: var(--soft-violet);
+}
+
+div#feature h3 {
+  margin-bottom: 0px;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+div#feature p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--white-transparent-two);
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 0px 20px 20px 20px;
+  max-width: 600px;
+}
+
+footer > div.attribution {
+  text-align: center;
+  font-size: 1.2rem;
+  min-width: 260px;
+  color: var(--white);
+}
+
+footer > div.attribution a {
+  color: var(--soft-violet);
+  transition: all 250ms ease;
+  text-decoration: none;
+}
+
+footer > div.attribution a:hover {
+  color: var(--white-transparent-two);
+}
