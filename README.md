@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/creativoma/single-price-grid-component-master)
-- Live Site URL: [Add live site URL here](https://single-price-grid-component-master-drab.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-rJrgSFcMq](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-rJrgSFcMq)
+- Live Site URL: [https://creativoma.github.io/stats-preview-card-component-main/](https://creativoma.github.io/stats-preview-card-component-main/)
 
 ## My process
 
